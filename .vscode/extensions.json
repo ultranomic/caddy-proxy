@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "appulate.filewatcher",
+    "wattenberger.footsteps",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "cardinal90.multi-cursor-case-preserve",
+    "esbenp.prettier-vscode",
+    "vue.volar"
+  ]
+}

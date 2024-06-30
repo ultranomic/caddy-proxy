@@ -1,0 +1,36 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyTabStops": true,
+  "editor.wordBasedSuggestions": "off",
+  "editor.wordWrap": "on",
+  "eslint.useFlatConfig": true,
+  "files.trimTrailingWhitespace": true,
+  "filewatcher.commands": [
+    {
+      "cmd": "cd ${workspaceRoot} && pnpm i",
+      "event": "onFileChange",
+      "isAsync": true,
+      "match": "\\/package\\.json$"
+    }
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.enable": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferGoToSourceDefinition": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}

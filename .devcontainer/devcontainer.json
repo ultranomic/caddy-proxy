@@ -1,0 +1,34 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node-postgres
+{
+  "name": "Caddy proxy dev environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/pnpm": "9.4.0",
+    "ghcr.io/joshuanianji/devcontainer-features/mount-pnpm-store:1": {}
+  },
+  "forwardPorts": [80, 443, 5432],
+  "postCreateCommand": "pnpm install",
+
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "aaron-bond.better-comments",
+        "ms-azuretools.vscode-docker",
+        "mikestead.dotenv",
+        "dbaeumer.vscode-eslint",
+        "appulate.filewatcher",
+        "Wattenberger.footsteps",
+        "eamodio.gitlens",
+        "wix.vscode-import-cost",
+        "Cardinal90.multi-cursor-case-preserve",
+        "esbenp.prettier-vscode",
+        "Vue.volar"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
