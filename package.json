@@ -7,8 +7,8 @@
     "dev:start": "nuxt dev",
     "dev:format": "prettier --write .",
     "dev:lint": "eslint . --fix",
-    "dependencies:outdated": "pnpm outdated",
-    "dependencies:update": "pnpm update --interactive",
+    "dev:deps:outdated": "pnpm outdated",
+    "dev:deps:update": "pnpm update --interactive",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
